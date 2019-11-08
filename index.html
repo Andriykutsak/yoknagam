@@ -121,9 +121,22 @@
                     </div>
                 </div>
             </div>
+            <div class="gallery-nav">
+                <nav>
+                    <ul class="galery-nav-items">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">></a></li>
+                        <li><a href="#">>></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
-    <div class="ittinery-block ">
+    <div class="ittinery-block">
         <div class="container">
             <h2 class="head ittinery-head">Set <span class="mark">Ittinery</span></h2>
             <p class="ittinery-desc">Simply drag and drop what you want to visit, and voila we make a ittinery and schedule for your vacation.
@@ -134,37 +147,78 @@
                         <h3 class="destination-form-head">Your Ittinery Title Here</h3>
                     </div>
                     <div class="destination-data-wraper">
-                    	<div class="destination-date">
-                        <div class="current-day">day 1</div>
-                        <div class="current-date">05/29/2015</div>
+                        <div class="destination-date">
+                            <div class="current-day">Day 1</div>
+                            <div class="current-date">05/29/2015</div>
+                        </div>
+                        <div class="drop-field-wraper">
+                            <div class="drop-zone empty">
+                                <p class="drop-zone-desc">Drag Destination Here</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="drop-field-wraper">
-                        <div class="drop-zone empty"></div>
-                        <div class="sub-destination-btn"></div>
-                    </div>
-                    </div>
-                    
                 </div>
                 <div class="destination-offers-drag">
                     <h3 class="offers-head">List of Destination</h3>
-                    <div class="offers-search-wraper"></div>
+                    <div class="offers-search-wraper">
+                        <div class="block">
+                            <span class="sort-option">sort by:</span>
+                            <select name="destination-sort-option" id="select-sort-option">
+                                <option value="mountain">mountain</option>
+                                <option value="forest">forests</option>
+                                <option value="rivers">rivers</option>
+                            </select>
+                        </div>
+                        <div class="block">
+                            <form action="" class="destination-option-search">
+                                <input type="text" placeholder="destination" class="ittinary-search-field">
+                                <button class="destination-search-btn"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
                     <div class="offers-wraper">
-                        <div class="offer-block">
+                        <div class="offer-block" draggable="true">
                             <div class="flex-container">
-                                <div class="offers-head">
-                                    <h4 class="destination"></h4>
-                                    <p class="destination-desc"></p>
+                                <div class="offers-ittinary-head">
+                                    <h4 class="ittinary-head">Mt. Bromo</h4>
+                                    <p class="ittinary-desc">estimated time: <span class="time">5 hours</span></p>
                                 </div>
                                 <div class="details-wraper">
-                                    <div class="img"></div>
-                                    <span class="details"></span>
+                                    <div class="img"><img src="img/bromo-mountain.png" alt="mountain icon"></div>
+                                    <a href="#"><span class="details">view details</span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="flex-container buttons-wraper">
+                <a href="#" class="btn-ittinary save-btn">save as pdf</a>
+                <a href="#" class="btn-ittinary print-btn">print</a>
+            </div>
         </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <h2 class="ct-head">contact</h2>
+            <div class="flex-container">
+                <div class="form-wraper">
+                    <form action="#">
+                        <div class="inp-wrap">
+                            <input type="text" placeholder="Your Email">
+                        </div>
+                        <div class="inp-wrap flex-container "><input type="text" placeholder="Company">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <textarea name="contact-msg" id="msg-area"  placeholder="Your Message"></textarea>
+                        <input type="submit" value="send message" id="ct-send-btn">
+                    </form>
+                </div>
+            </div>
+            <span class="ct-text">or</span>
+            <div class="adres-wraper"></div>
+        </div>
+    </div>
     </div>
 </body>
 
