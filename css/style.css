@@ -235,23 +235,16 @@ body {
     margin-bottom: 77px;
     text-transform: capitalize;
 }
-
-.fas {
-    color: #aeaeae;
-}
-
 .info-text {
     font-family: latoMedium;
     font-size: 16px;
     color: #aeaeae;
     margin-left: 9px;
 }
-
 .head-block .flex-container {
     justify-content: space-between;
     align-items: center;
 }
-
 .destination-desc {
     font-family: latoMedium;
     font-size: 16px;
@@ -260,7 +253,6 @@ body {
     max-width: 643px;
     margin-bottom: 70px;
 }
-
 .form-control .flex-container {
     justify-content: space-between;
     margin-bottom: 20px;
@@ -612,6 +604,9 @@ background-color: #b2de75;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+.contact .flex-container{
+	justify-content: space-between;
+}
 .ct-head{
 	font-family: chunkFive;
 	font-size: 65px;
@@ -620,9 +615,6 @@ background-color: #b2de75;
 	text-transform: capitalize;
 	margin-bottom: 105px;
 }
-/*.inp-wrap{
-	max-width: 470px;
-}*/
 .inp-wrap input,textarea{
 	padding: 23px 26px 24px 26px;
 	border: 1px solid #c7c7c7;
@@ -644,6 +636,9 @@ background-color: #b2de75;
 .inp-wrap:nth-child(3) input{
 	width: 225px;
 }
+.fl-end{
+	justify-content: flex-end;
+}
 #ct-send-btn{
 	font-family: latoMedium;
 	line-height: 24px;
@@ -654,4 +649,36 @@ background-color: #b2de75;
 	border: none;
 	padding: 28px 25px 27px 22px;
 	border-radius: 25px;
+}
+.ct-text{
+font-family: latoMedium;
+font-size: 14px;
+line-height: 24px;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: bold;
+}
+.adr-head{
+	font-family: latoMedium;
+	font-size: 44px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 62px;
+}
+.adres{
+	font-family: latoMedium;
+	font-size: 12px;
+	line-height: 16px;
+	color: #ffffff;
+}
+.map-link{
+	color: #fff772;
+	padding-left: 22px;
+	margin-bottom: 15px;
+}
+.adr-desc{
+	font-family: latoMedium;
+	font-size: 12px;
+	line-height: 28px;
+	color: #ffffff;
 }
