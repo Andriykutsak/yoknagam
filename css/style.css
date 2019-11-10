@@ -117,10 +117,12 @@ body {
     border-top: 8px solid #fff;
     margin-left: 4px;
 }
-.wraper{
-	display: inline-flex;
-	flex-wrap: nowrap;
+
+.wraper {
+    display: inline-flex;
+    flex-wrap: nowrap;
 }
+
 .user-actions {
     position: relative;
 }
@@ -146,20 +148,23 @@ body {
     text-transform: capitalize;
     text-decoration: none;
 }
-.btn-border{
-	border: 2px solid #fff;
-	border-radius: 5px;
-	padding: 5px 5px;
-	max-width: 25px;
-	margin-left: 25px;
+
+.btn-border {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 5px;
+    max-width: 25px;
+    margin-left: 25px;
 }
-.btn-border .row{
-	display: block;
-	height: 3px;
-	width: 25px;
-	background-color: #fff;
-	margin-top: 5px;
+
+.btn-border .row {
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin-top: 5px;
 }
+
 .head {
     font-family: chunkFiveRegular;
     font-size: 80px;
@@ -594,7 +599,7 @@ body {
     border: 1px solid#e8e8e8;
 
     border-radius: 4px;
-    flex-basis: 467px;
+    max-width: 467px;
     margin-bottom: 17px;
     padding: 13px 23px 10px 23px;
     -webkit-box-shadow: 1px 3px 5px 0px rgba(242, 242, 242, 1);
@@ -681,7 +686,9 @@ body {
 .contact .flex-container {
     justify-content: space-between;
 }
-
+.form-wraper{
+	max-width: 470px; 
+}
 .ct-head {
     font-family: chunkFive;
     font-size: 65px;
@@ -720,9 +727,11 @@ textarea {
 .fl-end {
     justify-content: flex-end;
 }
-#msg-area{
-	max-width: 470px;
+
+#msg-area {
+    max-width: 470px;
 }
+
 #ct-send-btn {
     font-family: latoMedium;
     line-height: 24px;
@@ -898,16 +907,18 @@ textarea {
 .footer-bg .footer-list a:hover {
     text-shadow: 2px 2px 2px rgba(110, 108, 111, 0.6);
 }
-.copyright{
-	font-family: latoMedium;
-	font-size: 12px;
-	line-height: 35px;
-	color: #aeaeae;
-	margin-top: 202px;
-	text-align: center;
+
+.copyright {
+    font-family: latoMedium;
+    font-size: 12px;
+    line-height: 35px;
+    color: #aeaeae;
+    margin-top: 202px;
+    text-align: center;
 }
+
 @media screen and (max-width:820px) {
-	.header-bg .menu-wraper{
-		display: none;
-	}
+    .header-bg .menu-wraper {
+        display: none;
+    }
 }
