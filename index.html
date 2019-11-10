@@ -28,9 +28,12 @@
                                 <li><a href="#">ittinary</a></li>
                                 <li><a href="#">Review</a></li>
                                 <li><a href="#">Contact</a></li>
+
                             </ul>
+                       
                         </nav>
-                        <div class="user-actions">
+                        <div class="wraper">
+                        	     <div class="user-actions">
                             <div class="flex-container">
                                 <img src="img/user-img.jpg" alt="Anton Shipulin" class="user-img">
                                 <div class="arrow-down"></div>
@@ -43,6 +46,13 @@
                                 </div>
                             </div>
                         </div>
+                             <div class="btn-border">
+                            	<span class="row"></span>
+                            	<span class="row"></span>
+                            	<span class="row"></span>
+                            </div>
+                        </div>
+                   
                     </div>
                     <h1 class="header-head head">lets get
                         <span class="mark">lost</span>
@@ -207,13 +217,13 @@
                 <div class="form-wraper">
                     <form action="#">
                         <div class="inp-wrap">
-                            <input type="text" placeholder="Your Email">
+                            <input type="text" placeholder="Your Email" required>
                         </div>
-                        <div class="inp-wrap flex-container "><input type="text" placeholder="Company">
-                            <input type="text" placeholder="Subject">
+                        <div class="inp-wrap flex-container "><input type="text" placeholder="Company" required>
+                            <input type="text" placeholder="Subject" required>
                         </div>
                         <div class="inp-wrap">
-                            <textarea name="contact-msg" id="msg-area" placeholder="Your Message"></textarea>
+                            <textarea name="contact-msg" id="msg-area" placeholder="Your Message" required></textarea>
                         </div>
                         <div class="flex-container fl-end">
                             <input type="submit" value="send message" id="ct-send-btn">
@@ -231,7 +241,40 @@
             </div>
         </div>
     </div>
+    <div class="subscr-block">
+        <div class="container">
+            <div class="flex-container subsc-container">
+                <div class="subsc-text">
+                    <h2 class="subsc-head">Keep in Touch</h2>
+                    <p class="subsc-desc">We Will Give you latest information about Malang</p>
+                </div>
+                <div class="subsc-form">
+                    <form action="" class="subscr-form">
+                        <input type="text" placeholder="Type Email Here for Subscribe" class="subsc-inp" required>
+                        <button type="submit" class="subsc-btn"><i class="fas fa-chevron-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer class="footer-bg">
+        <div class="container">
+            <div class="flex-container footer-flex-container">
+                <ul class="footer-list">
+                    <li><a href="#">Term & Condition</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+                <ul class="social-link-wraper">
+                    <a href="#" class="social-ico-wraper"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-ico-wraper"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-ico-wraper"><i class="fab fa-instagram"></i></a>
+                </ul>
+                
+            </div>
+            <p class="copyright">copyright@YokMalang. Allright Reserved. 2015</p>
+        </div>
+    </footer>
 </body>
 
 </html>
