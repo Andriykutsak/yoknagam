@@ -21,8 +21,8 @@
                 <div class="container">
                     <div class="flex-container">
                         <div class="logo-wrap"><a href="index.html" class="logo-link">Yok<span class="bolder">Ngalam</span></a></div>
-                        <nav class="head-menu">
-                            <ul class="menu-wraper">
+                        <nav id="responsive-menu">
+                            <ul class="menu-wraper" >
                                 <li><a href="#">home</a></li>
                                 <li><a href="#">Destination</a></li>
                                 <li><a href="#">ittinary</a></li>
@@ -34,8 +34,8 @@
                             <div class="user-actions">
                                 <div class="flex-container">
                                     <img src="img/user-img.jpg" alt="Anton Shipulin" class="user-img">
-                                    <div class="arrow-down"></div>
-                                    <div class="dropdown-menu">
+                                    <div class="arrow-down" id="dropdown-btn"></div>
+                                    <div class="dropdown-menu hide" id="dropdown-menu">
                                         <ul>
                                             <li><a href="#">logout</a></li>
                                             <li><a href="#">logout</a></li>
@@ -44,7 +44,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="btn-border">
+                            <div class="btn-border" id="responsive-btn">
                                 <span class="row"></span>
                                 <span class="row"></span>
                                 <span class="row"></span>
@@ -93,7 +93,7 @@
                     <div class="form-wraper">
                         <form action="#" class="form">
                             <input type="text" class="destination-inp" placeholder="search destination">
-                            <button type="submit" class="send-btn"><i class="fas fa-search fa-2x"></i></button>
+                            <button type="submit" class="send-btn"><i class="fas fa-search"></i></button>
                         </form>
                     </div>
                     <div class="place-wraper">
@@ -150,7 +150,7 @@
             <h2 class="head ittinery-head">Set <span class="mark">Ittinery</span></h2>
             <p class="ittinery-desc">Simply drag and drop what you want to visit, and voila we make a ittinery and schedule for your vacation.
                 have a great trip !</p>
-            <div class="flex-container">
+            <div class="flex-container offers-flex">
                 <div class="destination-form">
                     <div class="destination-head-bg">
                         <h3 class="destination-form-head">Your Ittinery Title Here</h3>
@@ -187,7 +187,44 @@
                     </div>
                     <div class="offers-wraper">
                         <div class="offer-block" draggable="true">
-                            <div class="flex-container">
+                            <div class="flex-container offer-block-container">
+                                <div class="offers-ittinary-head">
+                                    <h4 class="ittinary-head">Mt. Bromo</h4>
+                                    <p class="ittinary-desc">estimated time: <span class="time">5 hours</span></p>
+                                </div>
+                                <div class="details-wraper">
+                                    <div class="img"><img src="img/bromo-mountain.png" alt="mountain icon"></div>
+                                    <a href="#"><span class="details">view details</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="offer-block" draggable="true">
+                            <div class="flex-container offer-block-container">
+                                <div class="offers-ittinary-head">
+                                    <h4 class="ittinary-head">Mt. Bromo</h4>
+                                    <p class="ittinary-desc">estimated time: <span class="time">5 hours</span></p>
+                                </div>
+                                <div class="details-wraper">
+                                    <div class="img"><img src="img/bromo-mountain.png" alt="mountain icon"></div>
+                                    <a href="#"><span class="details">view details</span></a>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="offer-block" draggable="true">
+                            <div class="flex-container offer-block-container">
+                                <div class="offers-ittinary-head">
+                                    <h4 class="ittinary-head">Mt. Bromo</h4>
+                                    <p class="ittinary-desc">estimated time: <span class="time">5 hours</span></p>
+                                </div>
+                                <div class="details-wraper">
+                                    <div class="img"><img src="img/bromo-mountain.png" alt="mountain icon"></div>
+                                    <a href="#"><span class="details">view details</span></a>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="offer-block" draggable="true">
+                            <div class="flex-container offer-block-container">
                                 <div class="offers-ittinary-head">
                                     <h4 class="ittinary-head">Mt. Bromo</h4>
                                     <p class="ittinary-desc">estimated time: <span class="time">5 hours</span></p>
@@ -216,13 +253,13 @@
                         <div class="inp-wrap">
                             <input type="text" placeholder="Your Email" required>
                         </div>
-                        <div class="inp-wrap flex-container "><input type="text" placeholder="Company" required>
+                        <div class="inp-wrap flex-container-input "><input type="text" placeholder="Company" required>
                             <input type="text" placeholder="Subject" required>
                         </div>
                         <div class="inp-wrap">
                             <textarea name="contact-msg" id="msg-area" placeholder="Your Message" required></textarea>
                         </div>
-                        <div class="flex-container fl-end">
+                        <div class="flex-container-end">
                             <input type="submit" value="send message" id="ct-send-btn">
                         </div>
                     </form>
@@ -271,6 +308,8 @@
             <p class="copyright">copyright@YokMalang. Allright Reserved. 2015</p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
