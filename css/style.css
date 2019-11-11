@@ -135,8 +135,6 @@ body {
 .user-actions {
     position: relative;
 }
-
-
 .dropdown-menu ul {
     position: absolute;
     top: 35px;
@@ -180,7 +178,7 @@ body {
 
 .head {
     font-family: chunkFiveRegular;
-    font-size: 80px;
+    font-size: 5rem;
     color: #29d9c2;
 
 }
@@ -730,7 +728,7 @@ textarea {
     border-radius: 5px;
     font-family: latoMedium;
     font-size: 14px;
-    line-height: 24px;
+    
     color: #b9b9b9;
     outline: none;
     margin-bottom: 29PX;
@@ -943,7 +941,19 @@ textarea {
     margin-top: 202px;
     text-align: center;
 }
-
+@media screen and (max-width:930px){
+.contact .flex-container{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.flex-container-end{
+    justify-content: center;
+}
+.ct-text{
+    margin: 50px 0;
+}
+}
 @media screen and (max-width:820px) {
 
 	.header-bg .btn-border{
